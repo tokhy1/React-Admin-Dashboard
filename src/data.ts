@@ -178,7 +178,7 @@ export const chartBoxUser = {
   color: "#8884d8",
   icon: "/userIcon.svg",
   title: "Total Users",
-  number: "11.238",
+  number: "11.2",
   dataKey: "users",
   percentage: 45,
   chartData: [
@@ -214,7 +214,7 @@ export const chartBoxRevenue = {
   color: "teal",
   icon: "/revenueIcon.svg",
   title: "Total Revenue",
-  number: "$56.432",
+  number: "$56.4",
   dataKey: "revenue",
   percentage: -12,
   chartData: [
