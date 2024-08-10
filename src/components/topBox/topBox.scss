@@ -12,7 +12,7 @@
 
         .user {
             display: flex;
-            gap: 20px;
+            gap: 10px;
 
             img {
             width: 40px;
@@ -40,6 +40,7 @@
 
         .amount {
             font-weight: 500;
+            margin-left: 30px;
         }
         }
     }
