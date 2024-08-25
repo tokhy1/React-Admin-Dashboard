@@ -6,6 +6,8 @@ import Home from "./pages/Home/Home";
 import Products from "./pages/Products/Products";
 import Users from "./pages/Users/Users";
 import "./styles/global.scss"
+import User from "./pages/user/User";
+import Product from "./pages/product/Product";
 
 
 function App() {
@@ -45,6 +47,14 @@ function App() {
         {
           path: "/users",
           element: <Users />,
+        },
+        {
+          path: "/users/:id",
+          element: <User />,
+        },
+        {
+          path: "/products/:id",
+          element: <Product />,
         },
       ],
     },
